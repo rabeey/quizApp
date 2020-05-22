@@ -61,7 +61,7 @@
  getNewQuestions = () => {
 
 	if(availableQuestions.length === 0 || questionCounter >= maxQuestions){
-		window.location.assign('/end.html');
+		window.location.assign('end.html');
 	}
 
 	 questionCounter++;
